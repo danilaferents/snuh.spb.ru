@@ -1,0 +1,511 @@
+@media screen and (max-width: 900px) {
+
+body
+{
+	background-color: #00aced;
+	height: 100%;
+	width: 100%;
+}
+
+#header
+{
+	width: 100<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>%;
+	height: 400px;
+	position: relative;
+	background-image: url('../images/SNUH-BD1.jpg');
+	background-size: cover;
+}
+
+#header img
+{
+	width: 100%;
+	height: 330px;
+	position: absolute;
+	top: 50%;
+	margin-top: -170px;
+}
+
+#linksfon
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background: darkblue;
+	z-index: 1997;
+}
+
+#contact-container
+{
+	display: block;
+	width: 100%;
+	min-height: calc(100vh - 400px);
+	position: relative;
+	top: 50px;
+	font-size: 22px;
+	text-align: center;
+}
+
+#map
+{
+	width: 490px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	margin-top: 20px;
+	background: #fff;
+}
+
+#phone-mail
+{
+	min-width: 40px;
+	min-height: 100px;
+	position: absolute;
+	left: 540px;
+}
+
+#phones
+{
+	width: 200px;
+	min-height: 10px;
+	position: relative;
+	left: 0;
+	top: 30px;
+	text-align: left;
+}
+
+#mail
+{
+	width: 200px;
+	min-height: 10px;
+	position: relative;
+	left: 0;
+	top: 20px;
+	text-align: left;
+	color: darkblue;
+}
+
+#head-images
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	/*background-image: url('../images/fonver1.jpg');*/
+	/*background-image: url('../images/SNUH-BD1-1024x659.jpg');*/
+	z-index: 100;
+	overflow: hidden;
+	transition: left 2s;
+	transition-timing-function: ease;
+}
+
+#mailform
+{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	left: 540px;
+	top: 100px;
+	display: block;
+}
+
+#name
+{
+	position: absolute;
+	display: block;
+	margin-left: 0;
+	margin-top: 20px;
+	width: 150px;
+	height: 20px;
+	font-size: 13px;
+	border-radius: 4px;
+	border: 1px solid darkblue;
+}
+
+#email
+{
+	position: absolute;
+	display: block;
+	margin-left: 0;
+	margin-top: 60px;
+	width: 150px;
+	height: 20px;
+	font-size: 13px;
+	border-radius: 4px;
+	border: 1px solid darkblue;
+}
+
+#text
+{
+	position: absolute;
+	display: block;
+	margin-left: 0;
+	margin-top: 100px;
+	width: 200px;
+	height: 100px;
+	border-radius: 4px;
+	border: 1px solid darkblue;
+	font-size: 15px;
+	resize: none;
+}
+
+#button
+{
+	position: absolute;
+	display: block;
+	margin-left: 0;
+	margin-top: 220px;
+	width: 80px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid darkblue;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 100%;
+	background-color: darkblue;
+	color: white;
+}
+
+.result
+{
+	position: absolute;
+	display: block;
+	margin-left: 100px;
+	margin-top: 220px;
+	min-width: 80px;
+	height: 20px;
+	color: darkblue;
+	font-size: 13px;
+	text-align: center;
+}
+
+#successmail
+{
+    display: hidden;
+	position: absolute;
+	width: 300px;
+	height: 70px;
+	background-color: #00aced;
+	border: 2px solid darkblue;
+	color: darkblue;
+	top: 500px;
+	margin-left: 50%;
+	left: -150px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 2px;
+	z-index: 2001;
+}
+
+#sentbutton
+{
+	cursor: pointer;
+	display: block;
+	position: relative;
+	margin-left: 254px;
+	margin-top: -16px;
+	width: 40px;
+	height: 18px;
+	border-radius: 4px;
+	border: 2px solid darkblue;
+	color: darkblue;
+	text-align: center;
+	background-color: #00aced;
+	line-height: 100%;
+}
+
+#fon
+{
+	display: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2000;
+}
+
+#content
+{	
+	display: block;
+	position: relative;
+	margin-top: 25px;
+	width: 100%;
+	min-height: calc(100vh - 400px);
+}
+
+#dev
+{
+	width: 100%;
+	max-width: 900px;
+	height: 350px;
+	position: absolute;
+	top: 50px;
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#sliders
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: left 2s;
+	transition-timing-function: ease;
+}
+
+#sliders img {
+	position: absolute;
+	width: 400%;
+	height: 100%;
+	left: 0px;
+	transition: left 2s;
+	transition-timing-function: ease;
+}
+
+#switchsliders
+{
+	position: absolute;
+	line-height: 1;
+	right: 0;
+	bottom: 0;
+	width: 88px;
+	height: 38px;
+	background-color: rgba(0, 0, 139, 0.5);
+	border: 2px solid darkblue;
+	border-bottom: none;
+	border-right: none;
+	border-radius: 10px 0 0 0;
+}
+
+#switchsliders ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-top: 12px;
+}
+
+#switchsliders ul li {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	border: 2px solid white;
+	background-color: rgba(0, 0, 139, 0.5);
+	float: left;
+	margin-left: 3px;
+	transition: background-color 0.4s;
+}
+
+/*#support
+{	
+	cursor: pointer;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	width: 64px;
+	height: 64px;
+	background-image: url('../images/support2.jpg');
+	border-radius: 64px;
+	border: 2px solid darkblue;
+	z-index: 3000;
+	transform: rotate(0deg);
+	transition: transform 0.5s;
+	overflow: hidden;
+}*/
+
+#footer 
+{	
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	bottom: 0;
+	left: 0;
+	background-color: darkblue;
+	margin-top: 20px;
+}
+
+#footerblock
+{
+	width: 100%;
+	min-height: 30px;
+	position: absolute;
+	top: 25px;
+	color: white;
+	padding-top: 40px;
+}
+
+#footertext
+{
+	width: 45%;
+	height: 100%;
+	position: relative;
+	float: left;
+	margin-left: 2%;
+}
+#footertext p
+{
+	font-size: 1.6vw;
+}
+
+#footercontacts
+{
+	width: 25%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+#footercontactsp1
+{
+	margin-top: 30px;
+}
+
+#footercontactsp2, #footercontactsp3
+{
+	margin-top: 10px;
+}
+
+#footerlinks
+{
+	width: 25%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+#footerul
+{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	list-style: none;
+	display: block;
+	margin-top: 30px;
+	z-index: 14;
+}
+
+.footerli
+{
+	float: left;
+	position: relative;
+	margin-left: 10%;
+	display: block;
+	width: 20%;
+	height: 40px;
+	transition: filter 0.2s;
+	color: #00aced;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+#footercontacts p
+{
+	font-size: 20px;
+}
+
+#footercontacts strong
+{
+	font-size: 2.2vw;
+	font-weight: bold;
+	color: #00aced;
+}
+
+i.fa
+{
+	font-size: 40px;
+}
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+#sociallinks
+{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	top: 13px;
+	display: block;
+	z-index: 9998;
+	line-height: 1;
+}
+
+#sociallinks ul
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#sociallinks ul li
+{
+  margin: 0;
+  position: relative;
+}
+
+#sociallinks ul li a
+{
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	color: white;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#sociallinks ul li a:hover
+{
+	text-decoration: underline;
+}
+
+#footer
+{
+	height: 310px;
+}
+
+#footertext
+{
+	display: none;
+}
+
+#footercontacts, #footerlinks
+{
+	width: 50%;
+	float: left;
+}
+
+#footerul
+{
+	margin-left: 30px;
+}
+
+.footerli
+{
+	float: none;
+	padding-bottom: 20px;
+}
+
+#footercontacts strong
+{
+	font-size: 3.4vw;
+	font-weight: bold;
+	color: #00aced;
+}
+
+}
